@@ -25,6 +25,10 @@ hr.h-color {
   color: white;
 }
 
+.fa-mine {
+  margin-right: 3px;
+}
+
 #side-nav {
   background-color: black;
   min-width: 270px;
