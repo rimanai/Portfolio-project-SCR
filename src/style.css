@@ -3,13 +3,33 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-h1 {
-  color: #fedbd1;
+h1,
+h2,
+h3 {
+  color: white;
+  text-align: center;
 }
 
-.content {
-  min-height: 100vh;
-  width: 100%;
+h1 {
+  font-size: 72px;
+  line-height: 85px;
+  letter-spacing: 10px;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  font-weight: 200;
+  display: inline;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+p {
+  color: #b2bfdf;
 }
 
 hr.h-color {
@@ -30,6 +50,19 @@ a:hover {
 
 .fa-mine {
   margin-right: 3px;
+}
+
+.describ {
+  margin: 10px 100px;
+}
+
+.content {
+  min-height: 100vh;
+}
+
+.main-block {
+  padding: 30px 100px;
+  margin: 50px 60px;
 }
 
 #side-nav {
