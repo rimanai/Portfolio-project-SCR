@@ -43,6 +43,13 @@ li {
 
 a:hover {
   color: #fdaf41 !important;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 17px;
+}
+
+a {
+  transition: all 550ms ease-in;
 }
 
 .sidebar li a {
