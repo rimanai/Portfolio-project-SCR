@@ -42,7 +42,7 @@ li {
 }
 
 a:hover {
-  color: #ff9191 !important;
+  color: #fdaf41 !important;
 }
 
 .sidebar li a {
@@ -79,6 +79,18 @@ a:hover {
     rgba(255, 253, 250, 1) 0px 0px 23px;
 }
 
+.hiddenglow {
+  text-shadow: none;
+
+  transition: all 700ms ease-in-out;
+}
+
+.hiddenglow:hover {
+  text-shadow: rgba(255, 214, 143, 0.986) 0px 0px 87px,
+    rgba(219, 146, 20, 1) 0px 0px 243px, rgba(255, 245, 227, 0.893) 0px 0px 28px,
+    rgba(255, 253, 250, 1) 0px 0px 23px;
+}
+
 #side-nav {
   background-color: black;
   min-width: 270px;
@@ -86,6 +98,14 @@ a:hover {
   min-height: 100%;
   max-height: 100%;
   position: fixed;
+}
+
+#fake-side-nav {
+  min-width: 270px;
+  max-width: 270px;
+  min-height: 100%;
+  max-height: 100%;
+  
 }
 
 button#button {
@@ -109,5 +129,4 @@ button#button:hover {
 
 #menulist {
   padding: 5px 10px;
-  margin: 75px 24px;
-}
+  margin: 114px 24px;
