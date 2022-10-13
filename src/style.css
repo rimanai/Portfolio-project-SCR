@@ -73,3 +73,15 @@ a:hover {
   max-height: 100%;
   position: fixed;
 }
+
+button#button {
+  background-color: #white;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto;
+  padding: 18px 40px;
+  color: grey;
+  font-size: 14px;
+  letter-spacing: 6px;
+  border: none;
+}
