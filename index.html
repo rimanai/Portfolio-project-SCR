@@ -26,13 +26,14 @@
 
     <div class="">
       <div class="row flex-nowrap">
-        <div class="sidebar col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark" id="side-nav">
+        <div class="sidebar col-auto d-none d-lg-block col-md-3 col-xl-2 px-sm-2 px-0 bg-dark" id="side-nav">
+          <div class="d-flex flex-column align-items-center align-items-sm-start px-2 pt-4 my-1 text-white min-vh-100">
           <div class="header-box px-2 pt-3 pb-4">
           <h3 class="d-inline ps-4">
             <span class="text-white">YANA PUKHALSKA</span>
           </h3>
           <button class="btn d-mb-none d-inline close-btn px-1 py-0 text-white"><span class="fa-solid fa-bars"></span></button>
-          <div class="d-flex flex-column align-items-center align-items-sm-start px-2 pt-4 my-1 text-white min-vh-100">
+          <div >
               
               <ul class="list-unstyled" id="menulist">
                 
@@ -59,9 +60,11 @@
             <hr class="h-color mx-2">
           </div>
         </div>
+
+       </div> 
       </div>
 
-      <div class="col-auto min-vh-100" id="fake-side-nav"></div>
+      <div class="col-auto d-none d-lg-block min-vh-100 col-md-3 col-xl-2 px-sm-2 px-0" id="fake-side-nav"></div>
 
       <div class="col сontent">    
         <div class="main-block">
@@ -126,6 +129,7 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+    
     <script src="src/js.js"></script>
   </body>
 </html>
