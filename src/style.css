@@ -70,7 +70,7 @@ a {
 
 .main-block {
   padding: 30px 100px;
-  margin: 50px 60px;
+  margin: 97px 60px;
 }
 
 .glow {
@@ -119,6 +119,18 @@ a {
   max-height: 100%;
   
 }
+
+#projects-heading {
+  font-size: 48px;
+  font-weight: 200 !important;
+  line-height: 85px;
+  letter-spacing: 10px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  padding: 20px 15px;
+}
+
+
 
 button.button {
   background-color: rgba(104, 98, 98, 0.198);
