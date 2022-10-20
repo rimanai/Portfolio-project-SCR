@@ -98,6 +98,11 @@ a {
     rgba(255, 253, 250, 1) 0px 0px 23px;
 }
 
+.screenshots
+{
+ 
+}
+
 #side-nav {
   background-color: black;
   min-width: 270px;
@@ -115,7 +120,7 @@ a {
   
 }
 
-button#button {
+button.button {
   background-color: rgba(104, 98, 98, 0.198);
   border-radius: 50px;
   display: block;
@@ -128,7 +133,7 @@ button#button {
   transition: all 500ms ease-in;
 }
 
-button#button:hover {
+button.button:hover {
   font-size: 16px;
   letter-spacing: 9px;
   background-color: transparent;
