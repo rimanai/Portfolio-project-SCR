@@ -76,6 +76,7 @@ h4 {
 }
 p {
   color: #b2bfdf;
+  text-align: right;
 }
 
 hr.h-color {
@@ -88,15 +89,20 @@ li {
 }
 
 a:hover {
-  color: #fdaf41 !important;
+  color: #fdaf41 ;
   padding-top: 10px;
   padding-bottom: 5px;
   font-size: 17px;
 }
 
 /*a {
-  transition: all 550ms ease-in;
+  transition: all 250ms ease-in;
 }*/
+
+
+.a-button:hover {
+  color:aquamarine !important;
+}
 
 .sidebar li a {
   color: white;
@@ -106,8 +112,9 @@ a:hover {
   margin-right: 3px;
 }
 
-.describ {
+.describe p {
   margin: 10px 100px;
+  text-align: center;
 }
 
 .content {
@@ -135,14 +142,14 @@ a:hover {
 .hiddenglow {
   text-shadow: none;
 
-  /*transition: all 700ms ease-in-out;*/
+  /*transition: all 50ms ease-out;*/
 }
 
-/*.hiddenglow:hover {
+.hiddenglow:hover {
   text-shadow: rgba(255, 214, 143, 0.986) 0px 0px 87px,
     rgba(219, 146, 20, 1) 0px 0px 243px, rgba(255, 245, 227, 0.893) 0px 0px 28px,
     rgba(255, 253, 250, 1) 0px 0px 23px;
-}*/
+}
 
 .project-card {
 
@@ -154,25 +161,10 @@ a:hover {
 {
  
 }
-/*
-#side-nav {
-  background-color: black;
-  min-width: 270px;
-  max-width: 270px;
-  min-height: 100%;
-  max-height: 100%;
-  position: fixed;
-}
 
-#fake-side-nav {
-  min-width: 270px;
-  max-width: 270px;
-  min-height: 100%;
-  max-height: 100%;
-  
+div#side-nav {
+  transition: all 400ms ease-in-out;
 }
-
-*/
 
 #projects-heading {
   font-size: 48px;
@@ -205,6 +197,12 @@ a:hover {
   background-color: transparent;
 }
 
+.menu-btns {
+  transition: all 50ms ease-out;
+  transition-delay: 0.5s;
+}
+
 #menulist {
   padding: 5px 10px;
   margin: 114px 24px;
+
