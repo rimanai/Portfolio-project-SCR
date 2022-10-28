@@ -74,9 +74,14 @@ h4 {
   font-weight: 100;
   font-size: smaller;
 }
+h5 {
+  color: #b2bfdf;
+  text-align: center;
+  font-weight: 100;
+}
+
 p {
   color: #b2bfdf;
-  text-align: right;
 }
 
 hr.h-color {
@@ -112,9 +117,10 @@ a:hover {
   margin-right: 3px;
 }
 
-.describe p {
+.describe {
   margin: 10px 100px;
-  text-align: center;
+  text-align: right !important;
+  
 }
 
 .content {
@@ -145,6 +151,15 @@ a:hover {
   /*transition: all 50ms ease-out;*/
 }
 
+.hidden-img {
+  filter: grayscale(85%);
+  transition: all 400ms ease-in-out;
+}
+
+.hidden-img:hover {
+  filter: grayscale(0%);
+}
+
 .hiddenglow:hover {
   text-shadow: rgba(255, 214, 143, 0.986) 0px 0px 87px,
     rgba(219, 146, 20, 1) 0px 0px 243px, rgba(255, 245, 227, 0.893) 0px 0px 28px,
@@ -153,14 +168,11 @@ a:hover {
 
 .project-card {
 
-  text-align: right;
+  text-align: right !important;
   
 }
 
-.screenshots
-{
- 
-}
+
 
 div#side-nav {
   transition: all 400ms ease-in-out;

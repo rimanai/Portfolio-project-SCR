@@ -1,5 +1,5 @@
 let burger = document.querySelector("#burger");
-burger.style.opacity = "0";
+burger.style.opacity = "0.1";
 
 let arrow = document.querySelector("#arrow");
 arrow.addEventListener("click", closeMenu);
@@ -10,7 +10,7 @@ function closeMenu() {
 
   burger.style.opacity = "1";
   burger.style.visibility = "visible";
-  arrow.style.opacity = "0.2";
+  arrow.style.opacity = "0.1";
 }
 
 burger.addEventListener("click", openMenu);
@@ -20,5 +20,5 @@ function openMenu() {
   sidebar.style.visibility = "initial";
   let arrow = document.querySelector("#arrow");
   arrow.style.opacity = "1";
-  burger.style.opacity = "0.2";
+  burger.style.opacity = "0.1";
 }
