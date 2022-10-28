@@ -1,4 +1,4 @@
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
   h1 {
 
@@ -39,6 +39,7 @@
 body {
   background-color: #2c3039;
   font-family: "Roboto", sans-serif;
+  max-width: 100%;
 }
 
 h1,
@@ -93,9 +94,9 @@ a:hover {
   font-size: 17px;
 }
 
-a {
+/*a {
   transition: all 550ms ease-in;
-}
+}*/
 
 .sidebar li a {
   color: white;
@@ -134,14 +135,14 @@ a {
 .hiddenglow {
   text-shadow: none;
 
-  transition: all 700ms ease-in-out;
+  /*transition: all 700ms ease-in-out;*/
 }
 
-.hiddenglow:hover {
+/*.hiddenglow:hover {
   text-shadow: rgba(255, 214, 143, 0.986) 0px 0px 87px,
     rgba(219, 146, 20, 1) 0px 0px 243px, rgba(255, 245, 227, 0.893) 0px 0px 28px,
     rgba(255, 253, 250, 1) 0px 0px 23px;
-}
+}*/
 
 .project-card {
 
@@ -153,7 +154,7 @@ a {
 {
  
 }
-
+/*
 #side-nav {
   background-color: black;
   min-width: 270px;
@@ -170,6 +171,8 @@ a {
   max-height: 100%;
   
 }
+
+*/
 
 #projects-heading {
   font-size: 48px;
