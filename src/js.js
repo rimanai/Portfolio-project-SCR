@@ -1,17 +1,22 @@
-let button = document.querySelector("#menu-button");
-button.addEventListener("click", handleMenu);
+let burger = document.querySelector("#burger");
+burger.style.visibility = "hidden";
 
-function handleMenu() {
+let arrow = document.querySelector("#arrow");
+arrow.addEventListener("click", closeMenu);
+
+function closeMenu() {
+  let closesidebar = document.querySelector("#side-nav");
+  closesidebar.style.visibility = "hidden";
+  burger.style.visibility = "visible";
+  arrow.style.visibility = "hidden";
+}
+
+burger.addEventListener("click", openMenu);
+
+function openMenu() {
   let sidebar = document.querySelector("div#side-nav");
-  sidebar.style.visibility = "hidden";
-  //let fakesidebar = document.querySelector("#fake-side-nav");
-  //fakesidebar.style.visibility = "hidden";
+  sidebar.style.visibility = "initial";
+  let arrow = document.querySelector("#arrow");
+  arrow.style.visibility = "visible";
+  burger.style.visibility = "hidden";
 }
-
-function reopenMenu() {
-  let opensidebar = document.querySelector("#side-nav");
-  opensidebar.style.visibility = "initial";
-}
-
-let reopen = document.querySelector("#reopen-button");
-reopen.addEventListener("click", reopenMenu);
