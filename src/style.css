@@ -219,7 +219,18 @@ div#side-nav {
   transition-delay: 0.5s;
 }
 
+.sign {
+  font-size: 9px;
+  font-weight: 100;
+  transition: all 70ms ease-in;
+
+}
+
+a.sign:hover {
+  font-size: 10px;
+  color: grey;
+}
+
 #menulist {
   padding: 5px 10px;
   margin: 114px 24px;
-
