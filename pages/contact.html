@@ -127,42 +127,57 @@
       </div>
 
       <div class="col сontent">
-        <h1>Say Hello</h1>
+        <h1 class="m-5">Say Hello</h1>
 
-        <p>
+        <p class="m-5">
           I'm intrested in both, long-term and short-lived contracts as long as
           creative challenges involved and we agree on a common goal. Just shoot
           me a message down bellow and we'll talk.
         </p>
 
         <form
-          class=""
+          class="m-5"
           action="https://formsubmit.co/janamirwork@gmail.com"
           method="POST"
         >
           <input type="hidden" name=" _subject" value="New email hurray!" />
-          <input
-            type="email"
-            name="email"
-            placeholder="Email Address"
-            required
-          />
+          <div class="row">
+            <div class="col-6">
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                class="form-control my-2 bg-gradient border-0"
+                required
+              />
+            </div>
+
+            <div class="col-6">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                class="form-control my-2 border-0"
+                required
+              />
+            </div>
+          </div>
 
           <input
             type="text"
             name="message"
-            placeholder="write your message here"
+            placeholder="Please, Leave Your Message Here"
+            class="form-control my-2 border-0 mb-5"
+            style="height: 100px"
             required
           />
-
-          <input type="text" name="name" placeholder="Your name" required />
 
           <input
             type="hidden"
             name="_next"
             value="https://gentle-fudge-1634d4.netlify.app/pages/thankyou.html"
           />
-          <button type="submit">Send</button>
+          <button type="submit" class="btn button">Submit</button>
         </form>
 
         <div class="py-sm-4" id="footer">
