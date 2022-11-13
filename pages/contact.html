@@ -135,7 +135,11 @@
           me a message down bellow and we'll talk.
         </p>
 
-        <form class="row g-3 m-4">
+        <form
+          class="row g-3 m-4"
+          action="https://formsubmit.co/janamirwork@gmail.com"
+          method="POST"
+        >
           <div class="col-md-6">
             <label for="inputEmail" class="form-label text-white"></label>
             <input
@@ -143,6 +147,7 @@
               class="form-control"
               id="inputEmail"
               placeholder="Email"
+              required
             />
           </div>
           <div class="col-md-6">
@@ -176,6 +181,11 @@
           <div class="col-12">
             <button type="submit" class="btn button">Submit</button>
           </div>
+          <input
+            type="hidden"
+            name="_next"
+            value="https://gentle-fudge-1634d4.netlify.app/pages/thankyou.html"
+          />
         </form>
 
         <div class="py-sm-4" id="footer">
