@@ -136,51 +136,31 @@
         </p>
 
         <form
-          class="row g-3 m-4"
+          class=""
           action="https://formsubmit.co/janamirwork@gmail.com"
           method="POST"
         >
-          <div class="col-md-6">
-            <label for="inputEmail" class="form-label text-white"></label>
-            <input
-              type="email"
-              class="form-control"
-              id="inputEmail"
-              placeholder="Email"
-              required
-            />
-          </div>
-          <div class="col-md-6">
-            <label for="inputName" class="form-label text-white"></label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputName"
-              placeholder="Name"
-            />
-          </div>
-          <div class="col-12">
-            <label for="inputSubject" class="form-label text-white"></label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputSubject"
-              placeholder="Subject"
-            />
-          </div>
-          <div class="col-12">
-            <label for="inputMessage" class="form-label text-white"></label>
-            <textarea
-              class="form-control"
-              id="inputMessage"
-              rows="4"
-              placeholder="Message"
-            ></textarea>
-          </div>
+          <input type="hidden" name=" _subject" value="New email hurray!" />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required
+          />
+          <input
+            type="hidden"
+            name="_next"
+            name=" _next"
+            value="https://gentle-fudge-1634d4.netlify.app/pages/thankyou.html"
+          />
+          <input
+            type="text"
+            name="message"
+            placeholder="write your message here"
+            required
+          />
+          <button type="submit">Send</button>
 
-          <div class="col-12">
-            <button type="submit" class="btn button">Submit</button>
-          </div>
           <input
             type="hidden"
             name="_next"
