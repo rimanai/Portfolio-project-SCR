@@ -196,7 +196,7 @@ div#side-nav {
   transition: all 400ms ease-in-out;
 }
 
-#projects-heading {
+.projects-heading {
   font-size: 48px;
   font-weight: 200 !important;
   line-height: 85px;
