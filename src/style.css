@@ -11,6 +11,7 @@
   h5,
   h6 {
     text-align: center;
+    color: #312b33;
   }
 
   h1 {
@@ -31,6 +32,7 @@
 
   p {
     text-align: justify;
+    color: #312b33;
   }
 
   .project-card {
@@ -113,7 +115,7 @@ h5 {
 
 p,
 li {
-  color: #b2bfdf;
+  color: #312b339d;
 }
 
 hr.h-color {
