@@ -22,3 +22,20 @@ function openMenu() {
   arrow.style.opacity = "1";
   burger.style.opacity = "0.1";
 }
+
+let mytime = document.querySelector("#mytime");
+let date = new Date();
+
+let hours = date.getHours().toLocaleString("en-US", {
+  timeZone: "Australia/Melbourne",
+});
+
+let minutes = date.getMinutes().toLocaleString("en-US", {
+  timeZone: "Australia/Melbourne",
+});
+
+if (minutes < 10) {
+  minutes = `0${minutes}`;
+}
+
+mytime.innerHTML = `${hours}:${minutes}`;
