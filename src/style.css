@@ -1,3 +1,7 @@
+:root {
+  --sub-color: rgba(247, 247, 217, 0.79);
+}
+
 @media (max-width: 700px) {
   body {
     max-width: 100%;
@@ -67,7 +71,7 @@ body {
     radial-gradient(at 44% 49%, hsla(171, 80%, 65%, 1) 0px, transparent 50%),
     radial-gradient(at 95% 48%, hsla(279, 61%, 72%, 1) 0px, transparent 50%),
     radial-gradient(at 4% 31%, hsla(98, 63%, 70%, 1) 0px, transparent 50%);
-  font-family: "Playfair Display", serif;
+
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -102,9 +106,12 @@ h3 {
 }
 
 h4 {
-  color: rgba(219, 146, 20, 1);
+  color: var(--sub-color);
   font-weight: 100;
-  font-size: smaller;
+  font-size: 17px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 9px #1b181d86;
 }
 h5,
 h3 {
