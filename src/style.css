@@ -133,8 +133,9 @@ a:hover {
   color: aquamarine !important;
 }
 
-.sidebar li a {
-  color: white;
+.active-page a {
+  font-weight: 200;
+  color: red;
 }
 
 .fa-mine {
