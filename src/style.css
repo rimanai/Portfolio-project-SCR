@@ -129,6 +129,11 @@ a:hover {
   transition: all 250ms ease-in;
 }*/
 
+/*.a-button {
+  margin-right: 0 !important;
+  margin-left: 445px !important;
+}*/
+
 .a-button:hover {
   color: aquamarine !important;
 }
