@@ -66,7 +66,7 @@ body {
     radial-gradient(at 44% 49%, hsla(171, 80%, 65%, 1) 0px, transparent 50%),
     radial-gradient(at 95% 48%, hsla(279, 61%, 72%, 1) 0px, transparent 50%),
     radial-gradient(at 4% 31%, hsla(98, 63%, 70%, 1) 0px, transparent 50%);
-  font-family: "Roboto", sans-serif;
+  font-family: "Playfair Display", serif;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -76,15 +76,16 @@ h2,
 h3 {
   color: white;
   text-align: center;
+  font-family: "Italiana", serif;
 }
 
 h1 {
-  font-size: 72px;
-  line-height: 85px;
-  letter-spacing: 10px;
+  font-size: 85px;
+  line-height: 90px;
+  letter-spacing: 12px;
 }
 h2 {
-  font-size: 24px;
+  font-size: 2px;
   font-weight: 400;
   line-height: 28.13px;
   letter-spacing: 10px;
