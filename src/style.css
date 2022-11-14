@@ -11,7 +11,6 @@
   h5,
   h6 {
     text-align: center;
-    color: #312b33;
   }
 
   h1 {
@@ -75,7 +74,7 @@ body {
 
 h1,
 h2,
-h3 {
+h5 {
   color: white;
   text-align: center;
   font-family: "Italiana", serif;
@@ -107,10 +106,23 @@ h4 {
   font-weight: 100;
   font-size: smaller;
 }
-h5 {
-  color: #b2bfdf;
+h5,
+h3 {
+  color: #0a246588;
   text-align: center;
-  font-weight: 100;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+a,
+p,
+li,
+ul,
+h3,
+h5 {
+  font-family: "Poppins", sans-serif;
 }
 
 p,
@@ -133,15 +145,15 @@ a {
 }
 
 a:hover {
-  color: #fdaf41;
+  color: rgba(246, 246, 204, 0.79);
   padding-top: 10px;
   padding-bottom: 5px;
   font-size: 17px;
 }
 
-/*a {
+a {
   transition: all 250ms ease-in;
-}*/
+}
 
 /*.a-button {
   margin-right: 0 !important;
@@ -149,11 +161,12 @@ a:hover {
 }*/
 
 .a-button:hover {
-  color: aquamarine !important;
+  color: rgba(246, 246, 191, 0.79) !important;
+  text-shadow: -5px 1px 10px #5c6977af;
 }
 
 .active-page a {
-  color: yellow;
+  color: rgba(246, 246, 191, 0.79);
   text-transform: capitalize;
   font-size: 25px;
   line-height: 26px;
@@ -206,7 +219,8 @@ a:hover {
 }
 
 .active-page a,
-.hiddenglow:hover {
+.hiddenglow:hover,
+.a-button:hover {
   text-shadow: rgba(255, 214, 143, 0.986) 0px 0px 87px,
     rgba(219, 146, 20, 1) 0px 0px 243px, rgba(255, 245, 227, 0.893) 0px 0px 28px,
     rgba(255, 253, 250, 1) 0px 0px 23px;
@@ -231,12 +245,12 @@ div#side-nav {
 }
 
 .button {
-  background-color: rgba(104, 98, 98, 0.198);
-  border-radius: 50px;
+  background-color: rgba(124, 116, 116, 0.11);
+  border-radius: 40px;
 
   margin: 0 auto;
   padding: 18px 40px;
-  color: grey;
+  color: rgba(246, 246, 191, 0.79);
   font-size: 14px;
   letter-spacing: 6px;
   border: none;
