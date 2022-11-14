@@ -134,8 +134,10 @@ a:hover {
 }
 
 .active-page a {
-  font-weight: 200;
-  color: red;
+  color: yellow;
+  text-transform: capitalize;
+  font-size: 25px;
+  line-height: 26px;
 }
 
 .fa-mine {
