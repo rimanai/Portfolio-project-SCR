@@ -1,8 +1,9 @@
 :root {
   --sub-color: rgba(247, 247, 217, 0.79);
+  --dark-accent: #0a246588;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   body {
     max-width: 100%;
     overflow-x: hidden;
@@ -53,6 +54,10 @@
   .button {
     margin: 0 auto;
     padding: 15px !important;
+  }
+  .a-button {
+    margin: 0 auto !important;
+    padding: 10px !important;
   }
 }
 
@@ -289,4 +294,8 @@ a.sign:hover {
 #menulist {
   padding: 5px 10px;
   margin: 114px 24px;
+}
+
+#footer a {
+  color: var(--dark-accent);
 }
