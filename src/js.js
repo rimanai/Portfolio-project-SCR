@@ -38,4 +38,6 @@ if (minutes < 10) {
   minutes = `0${minutes}`;
 }
 
-mytime.innerHTML = `<b>${hours}:${minutes}</b>`;
+if (mytime != null) {
+  mytime.innerHTML = `<b>${hours}:${minutes}</b>`;
+}
