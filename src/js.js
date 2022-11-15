@@ -41,3 +41,12 @@ if (minutes < 10) {
 if (mytime != null) {
   mytime.innerHTML = `<b>${hours}:${minutes}</b>`;
 }
+
+let projects = document.querySelector("#projects-menu");
+projects.addEventListener("click", highlightProjects);
+
+function highlightProjects() {
+  projects.classList.add("active-page");
+  let home = document.querySelector("#home-menu");
+  home.classList.remove("active-page");
+}

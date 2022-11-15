@@ -64,6 +64,7 @@
 /* DESKTOP STARTS HERE */
 
 body {
+  scroll-behavior: smooth;
   background-color: #b899ff;
   background-image: radial-gradient(
       at 6% 71%,
