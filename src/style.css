@@ -4,9 +4,11 @@
 }
 
 @media (max-width: 750px) {
+  html,
   body {
     max-width: 100%;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
   }
 
   h1,
@@ -37,6 +39,7 @@
   p {
     text-align: justify;
     color: #312b33;
+    padding: 5%;
   }
 
   .project-card {
